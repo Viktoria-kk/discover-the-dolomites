@@ -40,6 +40,17 @@ Build for production:
 npm run build
 ```
 
+## Deploying to GitHub Pages
+
+This project includes a GitHub Actions workflow at `.github/workflows/deploy.yml`.
+
+1. Create a new GitHub repository.
+2. Push this project to the repository.
+3. In GitHub, open `Settings` > `Pages`.
+4. Under `Build and deployment`, set `Source` to `GitHub Actions`.
+5. Push to the `main` branch.
+6. Open the finished deployment from the repository `Actions` tab or from `Settings` > `Pages`.
+
 ## Project Structure
 
 ```text
